@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: simple-replicaset
+  namespace: eryk
   labels:
     app: simple-app
 spec:
