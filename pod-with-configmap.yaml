@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: example-pod-with-configmap
+  name: pod-with-configmap
   namespace: eryk
   labels:
     app: example
@@ -19,7 +19,7 @@ spec:
       volumes:
         - name: data
           configMap:
-            name: simple-cm
+            name: configmap-object
       ports:
         - containerPort: 80
       resources:

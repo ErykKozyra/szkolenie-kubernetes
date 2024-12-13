@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: simple-cm
+  name: configmap-object
   namespace: eryk
 data:
   verbosity: "INFO"
