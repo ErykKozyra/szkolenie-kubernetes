@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: example-pod-with-secret
+  name: example-pod-with-configmap
   namespace: eryk
   labels:
     app: example
