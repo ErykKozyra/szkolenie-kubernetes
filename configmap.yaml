@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simple-cm
+  namespace: eryk
+data:
+  verbosity: "INFO"
+  config_file_name: "app.config"
+  app.config: |
+    db.host=localhost
+    db.user=eryk_dev
